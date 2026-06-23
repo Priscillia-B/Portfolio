@@ -19,9 +19,9 @@ function Introduction() {
             style={{ minWidth: "14ch" }}
           >
             {typedText}
-          </span>
-          <span className="animate-pulse text-blue-700 dark:text-blue-500">
-            |
+            <span className="animate-pulse text-blue-700 dark:text-blue-500">
+              |
+            </span>
           </span>
         </h1>
         <p className="mt-6 text-lg md:text-xl text-slate-600 dark:text-slate-400 leading-relaxed max-w-2xl font-medium">

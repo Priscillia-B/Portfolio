@@ -7,9 +7,9 @@ export const projectsData = [
     longDescription: "Conception complète d'une solution multiplateforme (Desktop & Mobile) en méthode agile pour la supervision de manifestations sportives de l'Eurométropole de Strasbourg. Ce projet met l'accent sur l'agilité à grande échelle et la synchronisation des données en temps réel.",
     technologies: ["React", "React Native", "JavaScript", "Prisma", "Electron"],
     category: "IUT - SAÉ",
-    githubUrl: "https://github.com/.../niddhoggr", 
-    demoUrl: "", 
-    image: "/images/niddhoggr-thumb.png", 
+    githubUrl: "https://github.com/.../niddhoggr",
+    demoUrl: "",
+    image: "/images/niddhoggr-thumb.png",
     bannerImage: "/images/niddhoggr-banner.png",
     keyFeatures: [
       "Gestion d'équipe en méthode Agile (6 personnes)",
@@ -65,20 +65,4 @@ export const projectsData = [
       "Algorithme de calcul des chemins et de coulissement des rangées"
     ]
   },
-  {
-    id: "obsidian",
-    title: "Opsidian (Projet DGFIP)",
-    shortDescription: "Application d'outillage interne pour l'administration publique.",
-    longDescription: "Poursuite du développement et de la maintenance d'une application d'outillage interne stratégique au sein de l'Établissement Services Informatiques (ESI) de Strasbourg. Ce projet s'inscrit dans le cadre de mon alternance à la Direction générale des Finances publiques.",
-    technologies: ["Java", "Spring Boot", "Vue.js", "SQL"],
-    category: "Professionnel",
-    githubUrl: "", // Souvent privé si pro, tu pourras l'expliquer
-    image: "/images/obsidian.png",
-    bannerImage: "/images/obsidian-banner.png",
-    keyFeatures: [
-      "Développement de modules backend robustes avec Spring Boot",
-      "Interface utilisateur réactive et moderne avec Vue.js",
-      "Modélisation et requêtage de bases de données SQL complexes"
-    ]
-  }
 ];

@@ -27,7 +27,7 @@ function ProjectDetail() {
         to="/"
         className="inline-flex items-center text-sm font-medium text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 mb-8 transition-colors"
       >
-        ← Retour aux projets
+        Retour aux projets
       </Link>
 
       <div className="mb-6">
