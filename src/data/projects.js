@@ -1,0 +1,84 @@
+// A modifier
+export const projectsData = [
+  {
+    id: "niddhoggr",
+    title: "T5 - Níðhöggr",
+    shortDescription: "Supervision agile de manifestations sportives multiplateformes.",
+    longDescription: "Conception complète d'une solution multiplateforme (Desktop & Mobile) en méthode agile pour la supervision de manifestations sportives de l'Eurométropole de Strasbourg. Ce projet met l'accent sur l'agilité à grande échelle et la synchronisation des données en temps réel.",
+    technologies: ["React", "React Native", "JavaScript", "Prisma", "Electron"],
+    category: "IUT - SAÉ",
+    githubUrl: "https://github.com/.../niddhoggr", 
+    demoUrl: "", 
+    image: "/images/niddhoggr-thumb.png", 
+    bannerImage: "/images/niddhoggr-banner.png",
+    keyFeatures: [
+      "Gestion d'équipe en méthode Agile (6 personnes)",
+      "Architecture multiplateforme synchronisée",
+      "Interface d'administration desktop et application terrain mobile"
+    ]
+  },
+  {
+    id: "datalibrarian",
+    title: "T3 - DataLibrarian",
+    shortDescription: "Site Web et audit agile orienté maintenabilité et refactoring.",
+    longDescription: "Développement en sprints courts avec un focus prononcé sur l'audit de maintenabilité, l'accessibilité et le refactoring de la dette technique sur une reprise de code tiers, tout en simulant des interactions directes avec des clients.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    category: "IUT - SAÉ",
+    githubUrl: "https://github.com/.../datalibrarian",
+    image: "/images/datalibrarian.png",
+    bannerImage: "/images/datalibrarian-banner.png",
+    keyFeatures: [
+      "Audit complet d'accessibilité (RGAA)",
+      "Réduction drastique de la dette technique",
+      "Présentations et revues de sprints avec clients"
+    ]
+  },
+  {
+    id: "snake",
+    title: "Assembleur : Snake",
+    shortDescription: "Jeu mythique développé au plus près du matériel.",
+    longDescription: "Implémentation complète du jeu Snake en langage Assembleur. Ce projet a permis de comprendre en profondeur la gestion des registres, de la mémoire vidéo et des interruptions système.",
+    technologies: ["Assembleur", "YAML", "Qualité logicielle"],
+    category: "Système",
+    githubUrl: "https://github.com/.../snake",
+    image: "/images/snake.png",
+    bannerImage: "/images/snake-banner.png",
+    keyFeatures: [
+      "Optimisation de l'utilisation de la mémoire et des registres",
+      "Gestion directe des entrées clavier et du rafraîchissement écran",
+      "Mise en place de tests de validation bas niveau"
+    ]
+  },
+  {
+    id: "labyrinthe",
+    title: "Labyrinthe (Java)",
+    shortDescription: "Jeu de société axé sur l'algorithmie et la POO.",
+    longDescription: "Développement complet du jeu de société Labyrinthe. Le projet se concentre sur une forte architecture orientée objet et des algorithmes complexes pour le déplacement et la modification dynamique des tuiles du plateau.",
+    technologies: ["Java", "Swing"],
+    category: "IUT - Projet",
+    githubUrl: "https://github.com/.../labyrinthe",
+    image: "/images/labyrinthe.png",
+    bannerImage: "/images/labyrinthe-banner.png",
+    keyFeatures: [
+      "Modélisation rigoureuse en programmation orientée objet (POO)",
+      "Interface graphique interactive conçue avec Java Swing",
+      "Algorithme de calcul des chemins et de coulissement des rangées"
+    ]
+  },
+  {
+    id: "obsidian",
+    title: "Opsidian (Projet DGFIP)",
+    shortDescription: "Application d'outillage interne pour l'administration publique.",
+    longDescription: "Poursuite du développement et de la maintenance d'une application d'outillage interne stratégique au sein de l'Établissement Services Informatiques (ESI) de Strasbourg. Ce projet s'inscrit dans le cadre de mon alternance à la Direction générale des Finances publiques.",
+    technologies: ["Java", "Spring Boot", "Vue.js", "SQL"],
+    category: "Professionnel",
+    githubUrl: "", // Souvent privé si pro, tu pourras l'expliquer
+    image: "/images/obsidian.png",
+    bannerImage: "/images/obsidian-banner.png",
+    keyFeatures: [
+      "Développement de modules backend robustes avec Spring Boot",
+      "Interface utilisateur réactive et moderne avec Vue.js",
+      "Modélisation et requêtage de bases de données SQL complexes"
+    ]
+  }
+];
