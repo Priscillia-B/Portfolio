@@ -1,7 +1,6 @@
 import Introduction from "../components/Introduction";
 import AboutMe from "../components/AboutMe";
 import Timeline from "../components/Timeline";
-import TechStack from "../components/TechStack";
 import ProjectsGallery from "../components/projects/ProjectsGallery";
 import Contact from "../components/Contact";
 
@@ -16,9 +15,6 @@ function Home() {
       </section>
       <section id="parcours">
         <Timeline />
-      </section>
-      <section id="stack">
-        <TechStack />
       </section>
       <section
         id="projets"

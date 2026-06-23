@@ -1,29 +1,23 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
-export function useTypewriter(words, speed = 100) {
-    const [text, setText] = useState("");
-    const [wordIndex, setWordIndex] = useState(0);
-    const [isDeleting, setIsDeleting] = useState(false);
+export function useTypewriter(text, speed = 80) {
+  const [displayedText, setDisplayedText] = useState("");
 
-    useEffect(() => {
-        const handleType = () => {
-            const currentWord = words[wordIndex % words.length];
-            setText(isDeleting
-                ? currentWord.substring(0, text.length - 1)
-                : currentWord.substring(0, text.length + 1)
-            );
+  useEffect(() => {
+    let index = 0;
 
-            if (!isDeleting && text === currentWord) {
-                setTimeout(() => setIsDeleting(true), 2000);
-            } else if (isDeleting && text === "") {
-                setIsDeleting(false);
-                setWordIndex(wordIndex + 1);
-            }
-        };
+    const interval = setInterval(() => {
+      index++;
 
-        const timer = setTimeout(handleType, isDeleting ? speed / 2 : speed);
-        return () => clearTimeout(timer);
-    }, [text, isDeleting, wordIndex, words, speed]);
+      setDisplayedText(text.slice(0, index));
 
-    return text;
+      if (index >= text.length) {
+        clearInterval(interval);
+      }
+    }, speed);
+
+    return () => clearInterval(interval);
+  }, [text, speed]);
+
+  return displayedText;
 }
