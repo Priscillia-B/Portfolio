@@ -7,7 +7,7 @@ function AboutMe() {
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white transition-colors">
               À propos de moi
             </h2>
-            <div className="h-1 w-16 bg-blue-600 dark:bg-blue-500 rounded"></div>
+            <div className="h-1.5 w-24 bg-linear-to-r from-blue-600 to-rose-500 rounded-full"></div>
           </div>
 
           <div className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed space-y-6 transition-colors">
@@ -29,14 +29,14 @@ function AboutMe() {
         </div>
 
         <div className="md:col-span-5 grid grid-cols-1 gap-4">
-          <div className="w-full h-48 bg-slate-200 dark:bg-slate-800 rounded-lg flex items-center justify-center text-slate-400">
+          <div className="w-full h-48 bg-slate-200 dark:bg-slate-800 rounded-lg flex items-center justify-center text-slate-400 shadow-md">
             [Image 1]
           </div>
           <div className="flex gap-4">
-            <div className="w-1/2 h-40 bg-slate-200 dark:bg-slate-800 rounded-lg flex items-center justify-center text-slate-400">
+            <div className="w-1/2 h-40 bg-slate-200 dark:bg-slate-800 rounded-lg flex items-center justify-center text-slate-400 shadow-md">
               [Image 2]
             </div>
-            <div className="w-1/2 h-40 bg-slate-200 dark:bg-slate-800 rounded-lg flex items-center justify-center text-slate-400">
+            <div className="w-1/2 h-40 bg-slate-200 dark:bg-slate-800 rounded-lg flex items-center justify-center text-slate-400 shadow-md">
               [Image 3]
             </div>
           </div>

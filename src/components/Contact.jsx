@@ -5,11 +5,10 @@ function Contact() {
         <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white">
           Contact
         </h2>
-        <div className="h-1 w-16 bg-blue-600 dark:bg-blue-500 rounded"></div>
+        <div className="h-1.5 w-24 bg-linear-to-r from-blue-600 to-rose-500 rounded-full"></div>
       </div>
-      <p className="text-lg text-slate-600 dark:text-slate-400">
-        Je suis ouverte aux opportunités et aux collaborations. N'hésite pas à
-        me contacter !
+      <p className="text-lg text-slate-600 dark:text-slate-400 font-medium">
+        N'hésite pas à me contacter !
       </p>
     </div>
   );
