@@ -7,7 +7,7 @@ import ProjectDetail from "./pages/ProjectDetail";
 function App() {
   return (
     <Router>
-     <div className="min-h-screen flex flex-col font-sans transition-colors duration-300 bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-200">
+      <div className="min-h-screen flex flex-col font-sans transition-colors duration-300 bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-200">
         <Navbar />
 
         <main className="grow">
