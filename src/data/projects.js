@@ -1,30 +1,29 @@
-import strasEventLogo from "../assets/projects/strasEvent/StrasEventLogo.png";
-import web_map from "../assets/projects/strasEvent/Web_map.png";
-import web_teams from "../assets/projects/strasEvent/Web_teams.png";
-import web_add_equipments from "../assets/projects/strasEvent/Web_add_equipments.png";
-import web_timeline from "../assets/projects/strasEvent/Web_timeline.png";
-import web_pdf_project from "../assets/projects/strasEvent/Web_pdf_project.png";
-import web_pdf_planning from "../assets/projects/strasEvent/Web_pdf_planning.png";
-import web_list_project from "../assets/projects/strasEvent/Web_list_project.png";
-import mobile_map from "../assets/projects/strasEvent/Mobile_map.png";
-import mobile_route from "../assets/projects/strasEvent/Mobile_route.png";
-import mobile_import from "../assets/projects/strasEvent/Mobile_import.png";
-import mobile_add_point from "../assets/projects/strasEvent/Mobile_add_point.png";
-import mobile_planning from "../assets/projects/strasEvent/Mobile_planning.png";
-import infodexInfinityLogo from "../assets/projects/infodex-infinity/infodex-infinity.png";
-import lockScreen from "../assets/projects/infodex-infinity/lock_screen.png";
-import difficultiesScreen from "../assets/projects/infodex-infinity/difficulties_screen.png";
-import desktopScreen from "../assets/projects/infodex-infinity/desktop.png";
-import mailScreen from "../assets/projects/infodex-infinity/mail.png";
-import dataviewerScreen from "../assets/projects/infodex-infinity/dataviewer.png";
-import databaseScreen from "../assets/projects/infodex-infinity/database.png";
-import snakeLogo from "../assets/projects/snake/snake.png";
-import snake_one_obstacle from "../assets/projects/snake/snake_one_obstacle.png";
-import snake_with_keyboard from "../assets/projects/snake/snake_with_keyboard.png";
-import snake_end from "../assets/projects/snake/end.png";
-import labyrinthe_1 from "../assets/projects/labyrinthe/labyrinthe_1.png";
-import labyrinthe_2 from "../assets/projects/labyrinthe/labyrinthe_2.png";
-import labyrinthe_3 from "../assets/projects/labyrinthe/labyrinthe_3.png";
+import strasEventLogo from "../assets/strasEvent/StrasEventLogo.png";
+import web_map from "../assets/strasEvent/Web_map.png";
+import web_teams from "../assets/strasEvent/Web_teams.png";
+import web_add_equipments from "../assets/strasEvent/Web_add_equipments.png";
+import web_timeline from "../assets/strasEvent/Web_timeline.png";
+import web_pdf_project from "../assets/strasEvent/Web_pdf_project.png";
+import web_pdf_planning from "../assets/strasEvent/Web_pdf_planning.png";
+import web_list_project from "../assets/strasEvent/Web_list_project.png";
+import mobile_map from "../assets/strasEvent/Mobile_map.png";
+import mobile_route from "../assets/strasEvent/Mobile_route.png";
+import mobile_import from "../assets/strasEvent/Mobile_import.png";
+import mobile_add_point from "../assets/strasEvent/Mobile_add_point.png";
+import mobile_planning from "../assets/strasEvent/Mobile_planning.png";
+import lockScreen from "../assets/infodexInfinity/lock_screen.png";
+import difficultiesScreen from "../assets/infodexInfinity/difficulties_screen.png";
+import desktopScreen from "../assets/infodexInfinity/desktop.png";
+import mailScreen from "../assets/infodexInfinity/mail.png";
+import dataviewerScreen from "../assets/infodexInfinity/dataviewer.png";
+import databaseScreen from "../assets/infodexInfinity/database.png";
+import snakeLogo from "../assets/snake/snake.png";
+import snake_one_obstacle from "../assets/snake/snake_one_obstacle.png";
+import snake_with_keyboard from "../assets/snake/snake_with_keyboard.png";
+import snake_end from "../assets/snake/end.png";
+import labyrinthe_1 from "../assets/labyrinthe/labyrinthe_1.png";
+import labyrinthe_2 from "../assets/labyrinthe/labyrinthe_2.png";
+import labyrinthe_3 from "../assets/labyrinthe/labyrinthe_3.png";
 
 export const projectsData = [
   {
@@ -86,7 +85,7 @@ export const projectsData = [
       "Electron"
     ],
     githubUrl: "https://github.com/Priscillia-B/Infodex-Infinity-group",
-    bannerImage: infodexInfinityLogo,
+    bannerImage: desktopScreen,
     gallery: [
       lockScreen,
       difficultiesScreen,

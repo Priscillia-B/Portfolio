@@ -1,5 +1,5 @@
 import { useTypewriter } from "../hooks/useTypewriter";
-import CV from "../assets/CV_Priscillia_Brucker.pdf";
+import CV from "../assets/introduction/CV_Priscillia_Brucker.pdf";
 import ProfileImage from "../assets/introduction/priscillia.jpg";
 
 function Introduction() {
