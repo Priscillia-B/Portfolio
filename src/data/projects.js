@@ -76,20 +76,26 @@ export const projectsData = [
   },
   {
     id: "snake",
-    title: "Assembleur : Snake",
-    shortDescription: "Jeu mythique développé au plus près du matériel.",
-    longDescription: "Implémentation complète du jeu Snake en langage Assembleur. Ce projet a permis de comprendre en profondeur la gestion des registres, de la mémoire vidéo et des interruptions système.",
-    technologies: ["Assembleur", "YAML", "Qualité logicielle"],
-    githubUrl: "",
-    bannerImage: "/snake-banner.jpg",
+    title: "Snake",
+    shortDescription: "Implémentation du jeu Snake en assembleur.",
+    longDescription: "Réalisé en binôme, ce projet consistait à développer le jeu Snake en langage Assembleur MIPS32 sur l'émulateur MARS. Le développement a nécessité une gestion de la mémoire (via des tableaux statiques pour les coordonnées du serpent) et des périphériques d'entrée/sortie (clavier et affichage bitmap). Le jeu intègre une difficulté croissante avec l'apparition d'un nouvel obstacle à chaque fois que le serpent se nourrit, ainsi qu'une détection des collisions aux bords de la fenêtre ainsi qu'aux obstacles pour déclencher la fin de partie.",
+    technologies: [
+      "Assembleur MIPS32",
+      "Émulateur MARS",
+    ],
+    githubUrl: "https://github.com/Priscillia-B/Snake",
+    bannerImage: "/snake/snake.png",
     gallery: [
-      "/snake-1.jpg",
-      "/snake-2.jpg"
+      "/snake/snake.png",
+      "/snake/snake_one_obstacle.png",
+      "/snake/snake_with_keyboard.png",
+      "/snake/end.png"
     ],
     keyFeatures: [
-      "Optimisation de l'utilisation de la mémoire et des registres",
-      "Gestion directe des entrées clavier et du rafraîchissement écran",
-      "Mise en place de tests de validation bas niveau"
+      "Lecture directe des entrées directionnelles (Z, Q, S, D) via les interruptions clavier.",
+      "Mise à jour en temps réel des coordonnées du serpent via des tableaux X et Y en mémoire.",
+      "Logique de croissance du serpent et génération aléatoire de la nourriture et des obstacles.",
+      "Détection des conditions de défaite (collisions avec les bordures, les obstacles ou son propre corps)."
     ]
   },
   {
@@ -98,7 +104,7 @@ export const projectsData = [
     shortDescription: "Jeu de société axé sur l'algorithmie et la POO.",
     longDescription: "Développement complet du jeu de société Labyrinthe. Le projet se concentre sur une forte architecture orientée objet et des algorithmes complexes pour le déplacement et la modification dynamique des tuiles du plateau.",
     technologies: ["Java", "Swing"],
-    githubUrl: "https://github.com/Priscillia-B/labyrinthe", // Ajoute ton vrai lien
+    githubUrl: "https://github.com/Priscillia-B/labyrinthe",
     bannerImage: "/labyrinthe-banner.jpg",
     gallery: [
       "/labyrinthe-1.jpg",
