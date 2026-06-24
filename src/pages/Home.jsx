@@ -2,7 +2,7 @@ import Introduction from "../components/Introduction";
 import AboutMe from "../components/AboutMe";
 import Timeline from "../components/Timeline";
 import ProjectsGallery from "../components/projects/ProjectsGallery";
-import ExperienceSkills from "../components/ExperienceSkills";
+import Experience from "../components/Experience";
 import Contact from "../components/Contact";
 
 function Home() {
@@ -28,7 +28,7 @@ function Home() {
       </section>
 
       <section id="experience">
-        <ExperienceSkills />
+        <Experience />
       </section>
 
       <section id="contact">

@@ -40,7 +40,7 @@ function Navbar() {
     { label: "À propos", id: "a-propos" },
     { label: "Parcours", id: "parcours" },
     { label: "Projets", id: "projets" },
-    { label: "Expérience & compétences", id: "experience" },
+    { label: "Expérience", id: "experience" },
     { label: "Contact", id: "contact" },
   ];
 
