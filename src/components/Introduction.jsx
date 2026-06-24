@@ -1,4 +1,6 @@
 import { useTypewriter } from "../hooks/useTypewriter";
+import CV from "../assets/CV_Priscillia_Brucker.pdf";
+import ProfileImage from "../assets/introduction/priscillia.jpg";
 
 function Introduction() {
   const typedText = useTypewriter("le développement d'applications", 70);
@@ -43,7 +45,7 @@ function Introduction() {
           </button>
 
           <a
-            href="/introduction/CV_Priscillia_Brucker.pdf"
+            href={CV}
             target="_blank"
             rel="noopener noreferrer"
             className="cursor-pointer px-8 py-3.5 bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-bold rounded-xl border-2 border-slate-200 dark:border-slate-700 hover:border-rose-500 dark:hover:border-rose-500 transition-colors duration-300 text-sm"
@@ -57,7 +59,7 @@ function Introduction() {
           <div className="absolute inset-0 rounded-full bg-linear-to-tr from-blue-400 to-rose-300 opacity-20 blur-3xl"></div>
           <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-8 border-white dark:border-slate-800 shadow-xl bg-slate-100 dark:bg-slate-800">
             <img
-              src="/introduction/priscillia.jpg"
+              src={ProfileImage}
               alt="Priscillia Brucker"
               className="w-full h-full object-cover"
             />

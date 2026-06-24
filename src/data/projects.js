@@ -1,3 +1,31 @@
+import strasEventLogo from "../assets/projects/strasEvent/StrasEventLogo.png";
+import web_map from "../assets/projects/strasEvent/Web_map.png";
+import web_teams from "../assets/projects/strasEvent/Web_teams.png";
+import web_add_equipments from "../assets/projects/strasEvent/Web_add_equipments.png";
+import web_timeline from "../assets/projects/strasEvent/Web_timeline.png";
+import web_pdf_project from "../assets/projects/strasEvent/Web_pdf_project.png";
+import web_pdf_planning from "../assets/projects/strasEvent/Web_pdf_planning.png";
+import web_list_project from "../assets/projects/strasEvent/Web_list_project.png";
+import mobile_map from "../assets/projects/strasEvent/Mobile_map.png";
+import mobile_route from "../assets/projects/strasEvent/Mobile_route.png";
+import mobile_import from "../assets/projects/strasEvent/Mobile_import.png";
+import mobile_add_point from "../assets/projects/strasEvent/Mobile_add_point.png";
+import mobile_planning from "../assets/projects/strasEvent/Mobile_planning.png";
+import infodexInfinityLogo from "../assets/projects/infodex-infinity/infodex-infinity.png";
+import lockScreen from "../assets/projects/infodex-infinity/lock_screen.png";
+import difficultiesScreen from "../assets/projects/infodex-infinity/difficulties_screen.png";
+import desktopScreen from "../assets/projects/infodex-infinity/desktop.png";
+import mailScreen from "../assets/projects/infodex-infinity/mail.png";
+import dataviewerScreen from "../assets/projects/infodex-infinity/dataviewer.png";
+import databaseScreen from "../assets/projects/infodex-infinity/database.png";
+import snakeLogo from "../assets/projects/snake/snake.png";
+import snake_one_obstacle from "../assets/projects/snake/snake_one_obstacle.png";
+import snake_with_keyboard from "../assets/projects/snake/snake_with_keyboard.png";
+import snake_end from "../assets/projects/snake/end.png";
+import labyrinthe_1 from "../assets/projects/labyrinthe/labyrinthe_1.png";
+import labyrinthe_2 from "../assets/projects/labyrinthe/labyrinthe_2.png";
+import labyrinthe_3 from "../assets/projects/labyrinthe/labyrinthe_3.png";
+
 export const projectsData = [
   {
     id: "strasevent",
@@ -23,20 +51,20 @@ export const projectsData = [
       "Swagger / OpenAPI"
     ],
     githubUrl: "https://github.com/Priscillia-B/Stras_Code",
-    bannerImage: "/strasEvent/StrasEventLogo.png",
+    bannerImage: strasEventLogo,
     gallery: [
-      "/strasEvent/Web_map.png",
-      "/strasEvent/Web_list_project.png",
-      "/strasEvent/Web_teams.png",
-      "/strasEvent/Web_add_equipments.png",
-      "/strasEvent/Web_timeline.png",
-      "/strasEvent/Web_pdf_project.png",
-      "/strasEvent/Web_pdf_planning.png",
-      "/strasEvent/Mobile_map.png",
-      "/strasEvent/Mobile_route.png",
-      "/strasEvent/Mobile_import.png",
-      "/strasEvent/Mobile_add_point.png",
-      "/strasEvent/Mobile_planning.png"
+      web_map,
+      web_list_project,
+      web_teams,
+      web_add_equipments,
+      web_timeline,
+      web_pdf_project,
+      web_pdf_planning,
+      mobile_map,
+      mobile_route,
+      mobile_import,
+      mobile_add_point,
+      mobile_planning
     ],
     keyFeatures: [
       "Gestion d'équipe en méthode Agile SCRUM (6 personnes) avec intégration continue GitLab CI/CD.",
@@ -58,14 +86,14 @@ export const projectsData = [
       "Electron"
     ],
     githubUrl: "https://github.com/Priscillia-B/Infodex-Infinity-group",
-    bannerImage: "/infodex-infinity/desktop.png",
+    bannerImage: infodexInfinityLogo,
     gallery: [
-      "/infodex-infinity/lock_screen.png",
-      "/infodex-infinity/difficulties_screen.png",
-      "/infodex-infinity/desktop.png",
-      "/infodex-infinity/mail.png",
-      "/infodex-infinity/dataviewer.png",
-      "/infodex-infinity/database.png",
+      lockScreen,
+      difficultiesScreen,
+      desktopScreen,
+      mailScreen,
+      dataviewerScreen,
+      databaseScreen
     ],
     keyFeatures: [
       "Création d'une interface immersive reproduisant un bureau Windows avec un écran de connexion gérant la difficulté.",
@@ -84,12 +112,12 @@ export const projectsData = [
       "Émulateur MARS",
     ],
     githubUrl: "https://github.com/Priscillia-B/Snake",
-    bannerImage: "/snake/snake.png",
+    bannerImage: snakeLogo,
     gallery: [
-      "/snake/snake.png",
-      "/snake/snake_one_obstacle.png",
-      "/snake/snake_with_keyboard.png",
-      "/snake/end.png"
+      snakeLogo,
+      snake_one_obstacle,
+      snake_with_keyboard,
+      snake_end
     ],
     keyFeatures: [
       "Lecture directe des entrées directionnelles (Z, Q, S, D) via les interruptions clavier.",
@@ -109,11 +137,11 @@ export const projectsData = [
       "UML (PlantUML)",
     ],
     githubUrl: "https://github.com/Priscillia-B/labyrinthe",
-    bannerImage: "/labyrinthe/labyrinthe_1.png",
+    bannerImage: labyrinthe_1,
     gallery: [
-      "/labyrinthe/labyrinthe_1.png",
-      "/labyrinthe/labyrinthe_2.png",
-      "/labyrinthe/labyrinthe_3.png",
+      labyrinthe_1,
+      labyrinthe_2,
+      labyrinthe_3,
     ],
     keyFeatures: [
       "Architecture MVC couplée à une modélisation UML complète (PlantUML).",

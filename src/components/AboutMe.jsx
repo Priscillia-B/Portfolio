@@ -1,3 +1,9 @@
+import IUT from "../assets/aboutMe/IUT.jpg";
+import DGFiP from "../assets/aboutMe/DGFIP.jpg";
+import CNAM from "../assets/aboutMe/CNAM.png";
+import CEA from "../assets/aboutMe/CEA.jpg";
+import Football from "../assets/aboutMe/foot.webp";
+
 function AboutMe() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-8 py-20 md:py-24">
@@ -33,7 +39,7 @@ function AboutMe() {
         <div className="md:col-span-5 grid grid-cols-2 gap-3 sm:gap-4">
           <div className="h-28 sm:h-32 bg-slate-200 dark:bg-slate-800 rounded-2xl shadow-sm overflow-hidden relative group">
             <img
-              src="/aboutMe/IUT.jpg"
+              src={IUT}
               alt="IUT Robert Schuman"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
@@ -44,7 +50,7 @@ function AboutMe() {
 
           <div className="h-28 sm:h-32 bg-slate-200 dark:bg-slate-800 rounded-2xl shadow-sm overflow-hidden relative group">
             <img
-              src="/aboutMe/DGFIP.jpg"
+              src={DGFiP}
               alt="DGFiP"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
@@ -55,7 +61,7 @@ function AboutMe() {
 
           <div className="h-28 sm:h-32 bg-slate-200 dark:bg-slate-800 rounded-2xl shadow-sm overflow-hidden relative group">
             <img
-              src="/aboutMe/CNAM.png"
+              src={CNAM}
               alt="CNAM"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
@@ -66,7 +72,7 @@ function AboutMe() {
 
           <div className="h-28 sm:h-32 bg-slate-200 dark:bg-slate-800 rounded-2xl shadow-sm overflow-hidden relative group">
             <img
-              src="/aboutMe/CEA.jpg"
+              src={CEA}
               alt="CEA"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
@@ -78,7 +84,7 @@ function AboutMe() {
           <div className="col-span-2 flex justify-center">
             <div className="h-28 sm:h-46 w-full max-w-47.5 bg-slate-200 dark:bg-slate-800 rounded-2xl shadow-sm overflow-hidden relative group">
               <img
-                src="/aboutMe/foot.webp"
+                src={Football}
                 alt="Football"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
