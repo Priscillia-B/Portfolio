@@ -33,7 +33,7 @@ function AboutMe() {
         <div className="md:col-span-5 grid grid-cols-2 gap-3 sm:gap-4">
           <div className="h-28 sm:h-32 bg-slate-200 dark:bg-slate-800 rounded-2xl shadow-sm overflow-hidden relative group">
             <img
-              src="/IUT.jpg"
+              src="/aboutMe/IUT.jpg"
               alt="IUT Robert Schuman"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
@@ -44,7 +44,7 @@ function AboutMe() {
 
           <div className="h-28 sm:h-32 bg-slate-200 dark:bg-slate-800 rounded-2xl shadow-sm overflow-hidden relative group">
             <img
-              src="/DGFIP.jpg"
+              src="/aboutMe/DGFIP.jpg"
               alt="DGFiP"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
@@ -55,7 +55,7 @@ function AboutMe() {
 
           <div className="h-28 sm:h-32 bg-slate-200 dark:bg-slate-800 rounded-2xl shadow-sm overflow-hidden relative group">
             <img
-              src="/CNAM.png"
+              src="/aboutMe/CNAM.png"
               alt="CNAM"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
@@ -66,7 +66,7 @@ function AboutMe() {
 
           <div className="h-28 sm:h-32 bg-slate-200 dark:bg-slate-800 rounded-2xl shadow-sm overflow-hidden relative group">
             <img
-              src="/CEA.jpg"
+              src="/aboutMe/CEA.jpg"
               alt="CEA"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
@@ -78,7 +78,7 @@ function AboutMe() {
           <div className="col-span-2 flex justify-center">
             <div className="h-28 sm:h-46 w-full max-w-47.5 bg-slate-200 dark:bg-slate-800 rounded-2xl shadow-sm overflow-hidden relative group">
               <img
-                src="/foot.webp"
+                src="/aboutMe/foot.webp"
                 alt="Football"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
