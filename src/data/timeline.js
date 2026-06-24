@@ -1,5 +1,13 @@
 export const timelineData = [
   {
+    date: "2020 - 2023",
+    type: "formation",
+    label: "Formation",
+    title: "Baccalauréat Général",
+    desc: "Lycée Jean Rostand - mention Bien spécialité Maths & NSI",
+
+  },
+  {
     date: "2023 - 2026",
     type: "formation",
     label: "Formation",
