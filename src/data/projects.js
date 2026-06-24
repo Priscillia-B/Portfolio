@@ -3,7 +3,8 @@ export const projectsData = [
     id: "strasevent",
     title: "StrasEvent",
     shortDescription: "Écosystème complet (API, Web & Mobile) de supervision et de sécurisation de manifestations sportives.",
-    longDescription: "Conception et développement d'une solution multiplateforme destinée à l'Eurométropole de Strasbourg pour piloter la logistique de sécurité et le déploiement d'équipements sur le terrain. L'écosystème comprend une API REST (Express/Prisma), une application de bureau pour gérer tous les projets et leurs détails (React/Vite) et une application mobile terrain (React Native/Expo) pour les agents, le tout en mode hors-ligne. Ce projet a été réalisé en équipe de 6 personnes sous forme de sprint de 2 semaines, où à chaque fin de sprint, nous avions la suite du cahier des charges.",
+    longDescription:
+      "Conception et développement d’une solution multiplateforme destinée à l’Eurométropole de Strasbourg pour piloter la logistique de sécurité et le déploiement d’équipements sur le terrain. L’écosystème comprend une API REST (Express/Prisma), une application de bureau pour la gestion complète des projets (React/Vite) et une application mobile terrain (React Native/Expo) pensée pour les agents, le tout entièrement fonctionnelle en mode hors‑ligne. Le projet a été réalisé en équipe de 6 personnes, en sprints de deux semaines, avec une évolution du cahier des charges à chaque fin de sprint.",
     technologies: [
       "React",
       "React Native",
@@ -40,8 +41,8 @@ export const projectsData = [
     keyFeatures: [
       "Gestion d'équipe en méthode Agile SCRUM (6 personnes) avec intégration continue GitLab CI/CD.",
       "Architecture API REST Express + Prisma avec base SQLite, documentée avec un Swagger.",
-      "Application de bureau (React + Vite) avec une carte interactive (React-Leaflet, tuiles OSM et HERE Maps) pour placer les équipements (barrières, véhicule) à des heures précises associés à des équipes (gestion de personnels). Nous pouvons visualiser un planning d'un projet et des équipes et exporter toutes les données (Excel et PDF).",
-      "Application Mobile terrain (React Native + Expo + TypeScript) dotée d'une cartographie 100% hors-ligne (MapLibre) et géolocalisation GPS. Utile pour les agents afin de prendre en photo les rues où devront être les équipements, de suivre leur planning et d'être guider aux points.",
+      "Application de bureau (React + Vite) avec une carte interactive (React-Leaflet, tuiles OSM et HERE Maps) pour placer les équipements (barrières, véhicules, parcours) à des heures précises associés à des équipes (gestion de personnels). Nous pouvons visualiser un planning d'un projet et des équipes et exporter toutes les données (Excel et PDF).",
+      "Application Mobile terrain (React Native + Expo + TypeScript) dotée d'une cartographie hors-ligne (MapLibre) et géolocalisation GPS.ermet aux agents de prendre des photos des zones d’intervention, de suivre leur planning et d’être guidés vers les points à équiper.",
       "Système de synchronisation entre les applications via scan de QR codes.",
     ]
   },
