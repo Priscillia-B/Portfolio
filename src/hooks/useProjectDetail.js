@@ -1,8 +1,10 @@
 import { useState, useEffect, useCallback } from "react";
 import { projectsData } from "../data/projects";
+import { useNavigate } from "react-router-dom";
 
 export function useProjectDetail(id) {
   const project = projectsData.find((p) => p.id === id);
+  const navigate = useNavigate();
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [touchStart, setTouchStart] = useState(null);
@@ -56,12 +58,21 @@ export function useProjectDetail(id) {
     if (distance < -minSwipeDistance) prevSlide();
   };
 
+  const handleGoBack = useCallback((e) => {
+    e.preventDefault();
+    navigate("/");
+    setTimeout(() => {
+      document.getElementById("projets")?.scrollIntoView({ behavior: "smooth" });
+    }, 100);
+  }, [navigate]);
+
   return {
     project,
     currentIndex,
     setCurrentIndex,
     prevSlide,
     nextSlide,
+    handleGoBack,
     onTouchHandlers: {
       onTouchStart,
       onTouchMove,

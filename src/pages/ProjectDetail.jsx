@@ -1,4 +1,4 @@
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { useProjectDetail } from "../hooks/useProjectDetail";
 
 function ProjectDetail() {
@@ -9,6 +9,7 @@ function ProjectDetail() {
     setCurrentIndex,
     prevSlide,
     nextSlide,
+    handleGoBack,
     onTouchHandlers,
   } = useProjectDetail(id);
 
@@ -18,18 +19,23 @@ function ProjectDetail() {
         <h2 className="text-2xl font-bold text-slate-900 dark:text-white">
           Projet introuvable
         </h2>
-        <Link to="/" className="mt-4 text-blue-600 hover:underline">
+        <a
+          href="/"
+          onClick={handleGoBack}
+          className="mt-4 text-blue-600 hover:underline"
+        >
           Retour à l'accueil
-        </Link>
+        </a>
       </div>
     );
   }
 
   return (
     <div className="animate-fade-in py-12 px-4 max-w-4xl mx-auto">
-      <Link
-        to="/"
-        className="group inline-flex items-center gap-2 text-base md:text-lg font-bold text-blue-600 dark:text-blue-400 hover:text-rose-500 dark:hover:text-rose-400 transition-colors mb-8 w-fit"
+      <a
+        href="/"
+        onClick={handleGoBack}
+        className="cursor-pointer group inline-flex items-center gap-2 text-base md:text-lg font-bold text-blue-600 dark:text-blue-400 hover:text-rose-500 dark:hover:text-rose-400 transition-colors mb-8 w-fit"
       >
         <svg
           className="w-5 h-5 transform group-hover:-translate-x-1 transition-transform duration-300"
@@ -45,7 +51,7 @@ function ProjectDetail() {
           />
         </svg>
         Retour aux projets
-      </Link>
+      </a>
 
       <h1 className="text-4xl font-extrabold text-slate-900 dark:text-white mb-4">
         {project.title}
