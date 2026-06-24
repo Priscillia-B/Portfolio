@@ -43,7 +43,7 @@ export const timelineData = [
     type: "alternance",
     label: "Alternance",
     title: "Développeuse au CEA",
-    desc: "Développement logiciel en parallèle du cycle ingénieur",
+    desc: "Développement logiciel",
     overlap: "en parallèle du CNAM",
   },
 ];
