@@ -100,20 +100,26 @@ export const projectsData = [
   },
   {
     id: "labyrinthe",
-    title: "Labyrinthe (Java)",
+    title: "Labyrinthe",
     shortDescription: "Jeu de société axé sur l'algorithmie et la POO.",
-    longDescription: "Développement complet du jeu de société Labyrinthe. Le projet se concentre sur une forte architecture orientée objet et des algorithmes complexes pour le déplacement et la modification dynamique des tuiles du plateau.",
-    technologies: ["Java", "Swing"],
+    longDescription: "Réalisé en binôme, ce projet est une implémentation complète du jeu de plateau Labyrinthe en Java. L'application repose sur une architecture MVC (Modèle-Vue-Contrôleur) et une modélisation UML (PlantUML) intégrant divers patrons de conception (Design Patterns). Le jeu gère des parties à 4 joueurs, la génération du plateau, la distribution des objectifs, la validation des déplacements, et la mécanique de coulissement des rangées. L'interface graphique a été développée avec Java Swing.",
+    technologies: [
+      "Java",
+      "Swing",
+      "UML (PlantUML)",
+    ],
     githubUrl: "https://github.com/Priscillia-B/labyrinthe",
-    bannerImage: "/labyrinthe-banner.jpg",
+    bannerImage: "/labyrinthe/labyrinthe_1.png",
     gallery: [
-      "/labyrinthe-1.jpg",
-      "/labyrinthe-2.jpg"
+      "/labyrinthe/labyrinthe_1.png",
+      "/labyrinthe/labyrinthe_2.png",
+      "/labyrinthe/labyrinthe_3.png",
     ],
     keyFeatures: [
-      "Modélisation rigoureuse en programmation orientée objet (POO)",
-      "Interface graphique interactive conçue avec Java Swing",
-      "Algorithme de calcul des chemins et de coulissement des rangées"
+      "Architecture MVC couplée à une modélisation UML complète (PlantUML).",
+      "Génération du plateau 7x7 avec placement aléatoire des tuiles et des 24 objectifs.",
+      "Mécanique de coulissement des lignes/colonnes impaires avec gestion de la réapparition des joueurs éjectés.",
+      "Interface graphique Java Swing interactive avec manipulation des tuiles (fusion d'images, rotation à 90°)."
     ]
   }
 ];
