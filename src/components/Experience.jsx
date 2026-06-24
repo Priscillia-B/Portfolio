@@ -16,7 +16,7 @@ const skillCategories = [
 ];
 
 const keyMissions = [
-  "Évolutions back-end sur Opsidian (Java / Spring Boot)",
+  "Évolutions back-end (Java / Spring Boot)",
   "Conception et documentation d'API REST",
   "Développement d'interfaces avec Vue.JS et le DSFR (Système de Design de l'État)",
   "Participation à l'évolution du modèle de données",
@@ -48,11 +48,8 @@ function Experience() {
           </p>
 
           <p className="mt-4 text-slate-600 dark:text-slate-500 leading-relaxed">
-            Je participe aujourd’hui au développement d’{" "}
-            <strong className="text-slate-800 dark:text-slate-200 border-b border-rose-200 dark:border-rose-800">
-              Opsidian
-            </strong>{" "}
-            , une application interne de cartographie des applications du cloud
+            Je participe aujourd’hui au développement d’une
+            application interne de cartographie des applications du cloud
             de l’État. Cette expérience me permet d’appliquer les connaissances
             acquises à l’IUT sur un projet avec des besoins utilisateurs réels,
             tout en découvrant les exigences de qualité, de maintenabilité et de

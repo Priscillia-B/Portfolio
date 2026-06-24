@@ -16,7 +16,7 @@ function Introduction() {
           <br />
           <span
             className="text-blue-700 dark:text-blue-500 inline-block min-h-[1.2em]"
-            style={{ minWidth: "14ch" }}
+            style={{ minWidth: "20ch", minHeight: "1.2em" }}
           >
             {typedText}
             <span className="animate-pulse text-rose-500">|</span>
