@@ -69,7 +69,7 @@ function Timeline() {
                     {step.label}
                   </span>
 
-                  <span className="block text-sm xl:text-base font-semibold text-slate-500 dark:text-slate-400 whitespace-nowrap">
+                  <span className="block text-sm xl:text-base font-semibold text-slate-500 dark:text-slate-500 whitespace-nowrap">
                     {step.date}
                   </span>
 
@@ -85,7 +85,7 @@ function Timeline() {
                     {step.title}
                   </h3>
 
-                  <p className="text-sm xl:text-base text-slate-600 dark:text-slate-400 leading-relaxed">
+                  <p className="text-sm xl:text-base text-slate-600 dark:text-slate-500 leading-relaxed">
                     {step.desc}
                   </p>
 

@@ -22,7 +22,7 @@ function Introduction() {
             <span className="animate-pulse text-rose-500">|</span>
           </span>
         </h1>
-        <p className="mt-6 text-lg md:text-xl text-slate-600 dark:text-slate-400 leading-relaxed max-w-2xl font-medium">
+        <p className="mt-6 text-lg md:text-xl text-slate-600 dark:text-slate-500 leading-relaxed max-w-2xl font-medium">
           Étudiante en fin de BUT Informatique, je me passionne pour le
           développement logiciel. Mon{" "}
           <strong className="text-slate-800 dark:text-slate-200 border-b-2 border-rose-200 dark:border-rose-900">
@@ -61,6 +61,8 @@ function Introduction() {
             <img
               src={ProfileImage}
               alt="Priscillia Brucker"
+              width={384}
+              height={384}
               className="w-full h-full object-cover"
             />
           </div>

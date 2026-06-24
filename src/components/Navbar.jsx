@@ -70,6 +70,7 @@ function Navbar() {
           ))}
 
           <button
+            aria-label="Activer le mode sombre"
             onClick={() => setIsDark(!isDark)}
             className="cursor-pointer p-2 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 transition-colors"
           >
@@ -141,6 +142,7 @@ function Navbar() {
             )}
           </button>
           <button
+            aria-label="Ouvrir le menu"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="cursor-pointer p-2 text-slate-900 dark:text-white"
           >

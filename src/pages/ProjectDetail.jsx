@@ -57,7 +57,7 @@ function ProjectDetail() {
         {project.title}
       </h1>
 
-      <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
+      <p className="text-lg text-slate-600 dark:text-slate-500 leading-relaxed">
         {project.longDescription}
       </p>
 
@@ -105,7 +105,7 @@ function ProjectDetail() {
             {project.keyFeatures.map((feature) => (
               <li
                 key={feature}
-                className="flex items-start gap-3 text-slate-600 dark:text-slate-400"
+                className="flex items-start gap-3 text-slate-600 dark:text-slate-500"
               >
                 <span className="mt-2 w-2 h-2 rounded-full bg-blue-600 dark:bg-blue-500 shrink-0" />
                 <span className="leading-relaxed">{feature}</span>
@@ -128,6 +128,8 @@ function ProjectDetail() {
             <img
               src={project.gallery[currentIndex]}
               alt={`Capture ${currentIndex + 1}`}
+              width={800}
+              height={500}
               className="max-w-full max-h-full object-contain pointer-events-none transition-opacity duration-300"
             />
 

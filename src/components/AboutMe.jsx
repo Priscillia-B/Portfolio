@@ -16,7 +16,7 @@ function AboutMe() {
             <div className="h-1.5 w-24 bg-linear-to-r from-blue-600 to-rose-500 rounded-full"></div>
           </div>
 
-          <div className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed space-y-6 transition-colors">
+          <div className="text-lg text-slate-600 dark:text-slate-500 leading-relaxed space-y-6 transition-colors">
             <p>
               Je suis en 3ᵉ année de BUT Informatique à l’IUT Robert Schuman et
               en alternance à la Direction Générale des Finances Publiques. Je
@@ -41,6 +41,8 @@ function AboutMe() {
             <img
               src={IUT}
               alt="IUT Robert Schuman"
+              width={200}
+              height={128}
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
             <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -52,6 +54,8 @@ function AboutMe() {
             <img
               src={DGFiP}
               alt="DGFiP"
+              width={200}
+              height={128}
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
             <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -63,6 +67,8 @@ function AboutMe() {
             <img
               src={CNAM}
               alt="CNAM"
+              width={200}
+              height={128}
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
             <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -74,6 +80,8 @@ function AboutMe() {
             <img
               src={CEA}
               alt="CEA"
+              width={200}
+              height={128}
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
             <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -82,10 +90,12 @@ function AboutMe() {
           </div>
 
           <div className="col-span-2 flex justify-center">
-            <div className="h-40 w-full max-w-47.5 bg-slate-200 dark:bg-slate-800 rounded-2xl shadow-sm overflow-hidden relative group">
+            <div className="h-46 w-full max-w-47.5 bg-slate-200 dark:bg-slate-800 rounded-2xl shadow-sm overflow-hidden relative group">
               <img
                 src={Football}
                 alt="Football"
+                width={200}
+                height={128}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
 

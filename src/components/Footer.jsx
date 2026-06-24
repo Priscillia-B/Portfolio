@@ -8,7 +8,7 @@ function Footer() {
         <p className="text-sm font-bold text-slate-800 dark:text-slate-300 transition-colors">
           &copy; {currentYear} Priscillia Brucker. Tous droits réservés.
         </p>
-        <p className="text-xs text-slate-400 font-medium tracking-widest uppercase transition-colors">
+        <p className="text-xs text-slate-500 font-medium tracking-widest uppercase transition-colors">
           Réalisé avec React, Vite & Tailwind CSS
         </p>
       </div>
