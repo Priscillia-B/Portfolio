@@ -47,21 +47,31 @@ export const projectsData = [
     ]
   },
   {
-    id: "datalibrarian",
-    title: "T3 - DataLibrarian",
-    shortDescription: "Site Web et audit agile orienté maintenabilité et refactoring.",
-    longDescription: "Développement en sprints courts avec un focus prononcé sur l'audit de maintenabilité, l'accessibilité et le refactoring de la dette technique sur une reprise de code tiers, tout en simulant des interactions directes avec des clients.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    githubUrl: "https://github.com/Priscillia-B/datalibrarian", // Ajoute ton vrai lien
-    bannerImage: "/datalibrarian-banner.jpg",
+    id: "infodex-infinity",
+    title: "Infodex-Infinity",
+    shortDescription: "Jeu sérieux immersif simulant un système d'exploitation pour faire découvrir le métier de Data Librarian.",
+    longDescription: "Développement d'un jeu sérieux plongeant le joueur dans la peau d'un gestionnaire de données à travers un OS fictif (DataLibrarian OS). Le joueur doit jongler entre plusieurs fausses applications (JaiMail, Miracle DB, DataViewer) pour traiter les demandes d'ajout de données des chercheurs. L'expérience intègre des mécaniques de gestion : maintenir la satisfaction en respectant les délais, refuser et justifier les erreurs pour faire monter les chercheurs en compétence et dispenser des formations stratégiques.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Electron"
+    ],
+    githubUrl: "https://github.com/Priscillia-B/Infodex-Infinity-group",
+    bannerImage: "/infodex-infinity/desktop.png",
     gallery: [
-      "/datalibrarian-1.jpg",
-      "/datalibrarian-2.jpg"
+      "/infodex-infinity/lock_screen.png",
+      "/infodex-infinity/difficulties_screen.png",
+      "/infodex-infinity/desktop.png",
+      "/infodex-infinity/mail.png",
+      "/infodex-infinity/dataviewer.png",
+      "/infodex-infinity/database.png",
     ],
     keyFeatures: [
-      "Audit complet d'accessibilité (RGAA)",
-      "Réduction drastique de la dette technique",
-      "Présentations et revues de sprints avec clients"
+      "Création d'une interface immersive reproduisant un bureau Windows avec un écran de connexion gérant la difficulté.",
+      "Développement de fausses applications intégrées (client mail JaiMail, gestionnaire Miracle DB, outil de correction DataViewer).",
+      "Système de progression dynamique basé sur la satisfaction, les délais et le niveau de compétence des chercheurs virtuels.",
+      "Objectif pédagogique : sensibiliser aux enjeux de l'intégrité des données et de la formation continue."
     ]
   },
   {
