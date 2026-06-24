@@ -21,14 +21,14 @@ function Introduction() {
           </span>
         </h1>
         <p className="mt-6 text-lg md:text-xl text-slate-600 dark:text-slate-400 leading-relaxed max-w-2xl font-medium">
-          Bientôt diplômée en informatique, je conjugue rigueur technique et
-          créativité. Actuellement en{" "}
+          Étudiante en fin de BUT Informatique, je me passionne pour le
+          développement logiciel. Mon{" "}
           <strong className="text-slate-800 dark:text-slate-200 border-b-2 border-rose-200 dark:border-rose-900">
             alternance à la DGFiP
-          </strong>
-          , je participe au développement de solutions logicielles durables avec
-          une ambition claire : intégrer une école d'ingénieur afin de
-          poursuivre mon évolution dans le domaine du développement logiciel.
+          </strong>{" "}
+          a confirmé mon envie de poursuivre dans cette voie et j’intègre une
+          école d’ingénieur pour continuer à progresser et renforcer mes
+          compétences.
         </p>
         <div className="flex flex-wrap gap-4 pt-8">
           <button
@@ -54,7 +54,7 @@ function Introduction() {
       </div>
       <div className="md:col-span-5 flex justify-center md:justify-end">
         <div className="relative">
-          <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-400 to-rose-300 opacity-20 blur-3xl"></div>
+          <div className="absolute inset-0 rounded-full bg-linear-to-tr from-blue-400 to-rose-300 opacity-20 blur-3xl"></div>
           <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-8 border-white dark:border-slate-800 shadow-xl bg-slate-100 dark:bg-slate-800">
             <img
               src="/priscillia.jpg"
