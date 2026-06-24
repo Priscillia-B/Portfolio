@@ -187,7 +187,7 @@ function ProjectDetail() {
           </div>
           {project.gallery.length > 1 && (
             <p className="text-center text-sm text-slate-500 mt-4 sm:hidden">
-              Glissez ou utilisez le clavier pour naviguer
+              Glissez ou utilisez les fleches pour naviguer entre les images.
             </p>
           )}
         </div>

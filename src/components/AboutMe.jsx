@@ -82,7 +82,7 @@ function AboutMe() {
           </div>
 
           <div className="col-span-2 flex justify-center">
-            <div className="h-28 sm:h-46 w-full max-w-47.5 bg-slate-200 dark:bg-slate-800 rounded-2xl shadow-sm overflow-hidden relative group">
+            <div className="h-40 w-full max-w-47.5 bg-slate-200 dark:bg-slate-800 rounded-2xl shadow-sm overflow-hidden relative group">
               <img
                 src={Football}
                 alt="Football"
