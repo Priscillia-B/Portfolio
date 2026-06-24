@@ -17,7 +17,7 @@ function Timeline() {
   return (
     <section className="max-w-7xl mx-auto px-4 sm:px-8 py-24 md:py-32">
       <div className="space-y-4 mb-20">
-        <h2 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-white">
+        <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white">
           Mon Parcours
         </h2>
 
