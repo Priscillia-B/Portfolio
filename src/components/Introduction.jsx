@@ -1,6 +1,6 @@
 import { useTypewriter } from "../hooks/useTypewriter";
 import CV from "../assets/introduction/CV_Priscillia_Brucker.pdf";
-import ProfileImage from "../assets/introduction/priscillia.jpg";
+import ProfileImage from "../assets/introduction/priscillia.webp";
 
 function Introduction() {
   const typedText = useTypewriter("le développement d'applications", 70);

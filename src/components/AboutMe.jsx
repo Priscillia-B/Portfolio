@@ -1,7 +1,7 @@
-import IUT from "../assets/aboutMe/IUT.jpg";
-import DGFiP from "../assets/aboutMe/DGFIP.jpg";
-import CNAM from "../assets/aboutMe/CNAM.png";
-import CEA from "../assets/aboutMe/CEA.jpg";
+import IUT from "../assets/aboutMe/IUT.webp";
+import DGFiP from "../assets/aboutMe/DGFIP.webp";
+import CNAM from "../assets/aboutMe/CNAM.webp";
+import CEA from "../assets/aboutMe/CEA.webp";
 import Football from "../assets/aboutMe/foot.webp";
 
 function AboutMe() {
