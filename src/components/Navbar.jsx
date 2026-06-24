@@ -70,7 +70,9 @@ function Navbar() {
           ))}
 
           <button
-            aria-label="Activer le mode sombre"
+            aria-label={
+              isDark ? "Activer le mode clair" : "Activer le mode sombre"
+            }
             onClick={() => setIsDark(!isDark)}
             className="cursor-pointer p-2 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 transition-colors"
           >
@@ -108,6 +110,9 @@ function Navbar() {
 
         <div className="flex items-center gap-3 md:hidden">
           <button
+            aria-label={
+              isDark ? "Activer le mode clair" : "Activer le mode sombre"
+            }
             onClick={() => setIsDark(!isDark)}
             className="cursor-pointer p-2 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200"
           >
@@ -142,7 +147,7 @@ function Navbar() {
             )}
           </button>
           <button
-            aria-label="Ouvrir le menu"
+            aria-label={isMenuOpen ? "Fermer le menu" : "Ouvrir le menu"}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="cursor-pointer p-2 text-slate-900 dark:text-white"
           >
