@@ -14,13 +14,15 @@ function Introduction() {
         <h1 className="mt-8 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-slate-900 dark:text-white tracking-tight leading-tight">
           Passionnée par
           <br />
-          <span
-            className="text-blue-700 dark:text-blue-500 inline-block min-h-[1.2em]"
-            style={{ minWidth: "20ch", minHeight: "1.2em" }}
-          >
-            {typedText}
-            <span className="animate-pulse text-rose-500">|</span>
-          </span>
+          <div className="relative inline-block w-full min-h-[2.4em] sm:min-h-[2.4em] md:min-h-[1.2em]">
+            <span className="invisible block">
+              le développement d'applications
+            </span>
+            <span className="absolute left-0 top-0 text-blue-700 dark:text-blue-500">
+              {typedText}
+              <span className="animate-pulse text-rose-500">|</span>
+            </span>
+          </div>
         </h1>
         <p className="mt-6 text-lg md:text-xl text-slate-600 dark:text-slate-500 leading-relaxed max-w-2xl font-medium">
           Étudiante en fin de BUT Informatique, je me passionne pour le
