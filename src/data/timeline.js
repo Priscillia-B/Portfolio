@@ -42,7 +42,7 @@ export const timelineData = [
     date: "2026 - 2029",
     type: "alternance",
     label: "Alternance",
-    title: "Développeuse au CEA",
+    title: "Développeuse à la CEA",
     desc: "Développement logiciel",
     overlap: "en parallèle du CNAM",
   },

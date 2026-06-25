@@ -62,8 +62,8 @@ function Introduction() {
           <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-8 border-white dark:border-slate-800 shadow-xl bg-slate-100 dark:bg-slate-800">
             <img
               src={ProfileImage}
-              alt="Priscillia Brucker"
-              width={384}
+              alt="Priscillia Brucker Football"
+              width={384} 
               height={384}
               className="w-full h-full object-cover"
             />
