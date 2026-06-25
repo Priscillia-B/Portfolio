@@ -38,7 +38,7 @@ function Experience() {
             Développeuse à la DGFiP
           </h3>
 
-          <p className="mt-6 text-slate-600 dark:text-slate-500 leading-relaxed">
+          <p className="mt-6 text-slate-600 dark:text-slate-400 leading-relaxed">
             Depuis ma 3ᵉ année de BUT Informatique, j’évolue au sein de la
             Direction Générale des Finances Publiques (DGFiP). J’y ai d’abord
             réalisé un stage en développement informatique avant de poursuivre
@@ -47,7 +47,7 @@ function Experience() {
             gagner en responsabilités au fil du temps.
           </p>
 
-          <p className="mt-4 text-slate-600 dark:text-slate-500 leading-relaxed">
+          <p className="mt-4 text-slate-600 dark:text-slate-400 leading-relaxed">
             Je participe aujourd’hui au développement d’une
             application interne de cartographie des applications du cloud
             de l’État. Cette expérience me permet d’appliquer les connaissances
@@ -60,7 +60,7 @@ function Experience() {
             {keyMissions.map((mission) => (
               <li
                 key={mission}
-                className="flex items-start gap-3 text-slate-600 dark:text-slate-500"
+                className="flex items-start gap-3 text-slate-600 dark:text-slate-400"
               >
                 <span className="mt-1.5 w-2 h-2 rounded-full bg-rose-400 shrink-0" />
                 <span>{mission}</span>
@@ -71,7 +71,7 @@ function Experience() {
           <div className="mt-8 space-y-4">
             {skillCategories.map((cat) => (
               <div key={cat.label}>
-                <span className="text-xs font-bold uppercase tracking-wider text-slate-500">
+                <span className="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-300">
                   {cat.label}
                 </span>
                 <div className="mt-2 flex flex-wrap gap-2">
@@ -94,7 +94,7 @@ function Experience() {
             Vers mon projet professionnel
           </h3>
 
-          <p className="mt-6 text-slate-600 dark:text-slate-500 leading-relaxed">
+          <p className="mt-6 text-slate-600 dark:text-slate-400 leading-relaxed">
             Au fil de mes projets universitaires et de mes expériences en
             entreprise, j’ai découvert que ce qui me motive le plus est de
             participer à la construction d’applications utiles, tout en
@@ -102,17 +102,17 @@ function Experience() {
             conception.
           </p>
 
-          <p className="mt-4 text-slate-600 dark:text-slate-500 leading-relaxed">
+          <p className="mt-4 text-slate-600 dark:text-slate-400 leading-relaxed">
             Les projets réalisés à l’IUT m’ont permis d’explorer différentes
             facettes du développement logiciel. Que ce soit avec DataLibrarian,
             un jeu sérieux conçu pour faire découvrir le métier de Data
-            Librarian ou avec Níðhöggr, qui a constitué l'un des projets les
-            plus complexe en cours, j’ai appris à transformer des idées en
+            Librarian ou avec StrasEvent, qui a constitué l'un des projets les
+            plus complexe au BUT, j’ai appris à transformer des idées en
             solutions concrètes, à collaborer avec d’autres développeurs
             étudiants et à m’adapter à des besoins.
           </p>
 
-          <p className="mt-4 text-slate-600 dark:text-slate-500 leading-relaxed">
+          <p className="mt-4 text-slate-600 dark:text-slate-400 leading-relaxed">
             Mon expérience à la DGFiP a ensuite apporté une dimension plus
             professionnelle à ces apprentissages. J’y ai découvert le travail
             sur une application utilisée dans un environnement réel, avec des
@@ -120,7 +120,7 @@ function Experience() {
             dépassent le cadre académique.
           </p>
 
-          <p className="mt-4 text-slate-600 dark:text-slate-500 leading-relaxed">
+          <p className="mt-4 text-slate-600 dark:text-slate-400 leading-relaxed">
             Aujourd’hui, mon objectif est de poursuivre dans le domaine du
             développement logiciel tout en approfondissant mes compétences en
             conception et en architecture applicative. C’est cette volonté
@@ -128,7 +128,7 @@ function Experience() {
             école d’ingénieur au CNAM, en parallèle de ma future alternance.
           </p>
 
-          <p className="mt-4 text-slate-600 dark:text-slate-500 leading-relaxed">
+          <p className="mt-4 text-slate-600 dark:text-slate-400 leading-relaxed">
             Cette nouvelle étape me permettra également de découvrir
             progressivement des missions plus orientées vers la gestion et le
             pilotage de projets. Au fil de mon alternance, je serai amenée à

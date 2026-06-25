@@ -57,7 +57,7 @@ function ProjectDetail() {
         {project.title}
       </h1>
 
-      <p className="text-lg text-slate-600 dark:text-slate-500 leading-relaxed">
+      <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
         {project.longDescription}
       </p>
 
@@ -105,7 +105,7 @@ function ProjectDetail() {
             {project.keyFeatures.map((feature) => (
               <li
                 key={feature}
-                className="flex items-start gap-3 text-slate-600 dark:text-slate-500"
+                className="flex items-start gap-3 text-slate-600 dark:text-slate-400"
               >
                 <span className="mt-2 w-2 h-2 rounded-full bg-blue-600 dark:bg-blue-500 shrink-0" />
                 <span className="leading-relaxed">{feature}</span>

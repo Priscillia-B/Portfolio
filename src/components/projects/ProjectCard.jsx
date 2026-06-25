@@ -17,7 +17,7 @@ function ProjectCard({ project }) {
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
         ) : (
-          <div className="w-full h-full flex items-center justify-center text-slate-500 dark:text-slate-500 font-semibold px-4 text-center">
+          <div className="w-full h-full flex items-center justify-center text-slate-500 dark:text-slate-400 font-semibold px-4 text-center">
             {project.title}
           </div>
         )}
@@ -28,7 +28,7 @@ function ProjectCard({ project }) {
           <h3 className="text-xl font-bold mb-2 text-slate-900 dark:text-white group-hover:text-rose-500 transition-colors">
             {project.title}
           </h3>
-          <p className="text-slate-600 dark:text-slate-500 mb-6 line-clamp-3">
+          <p className="text-slate-600 dark:text-slate-400 mb-6 line-clamp-3">
             {project.shortDescription}
           </p>
 
@@ -42,7 +42,7 @@ function ProjectCard({ project }) {
               </span>
             ))}
             {remaining > 0 && (
-              <span className="px-3 py-1 rounded-lg bg-slate-50 dark:bg-slate-700 border border-slate-100 dark:border-slate-600 text-xs font-medium text-slate-500">
+              <span className="px-3 py-1 rounded-lg bg-slate-50 dark:bg-slate-700 border border-slate-100 dark:border-slate-600 text-xs font-medium text-slate-500 dark:text-slate-300">
                 +{remaining}
               </span>
             )}

@@ -16,7 +16,7 @@ function AboutMe() {
             <div className="h-1.5 w-24 bg-linear-to-r from-blue-600 to-rose-500 rounded-full"></div>
           </div>
 
-          <div className="text-lg text-slate-600 dark:text-slate-500 leading-relaxed space-y-6 transition-colors">
+          <div className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed space-y-6 transition-colors">
             <p>
               Je suis en 3ᵉ année de BUT Informatique à l’IUT Robert Schuman et
               en alternance à la Direction Générale des Finances Publiques. Je

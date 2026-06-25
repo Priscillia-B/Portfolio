@@ -8,7 +8,7 @@ function Contact() {
         <div className="h-1.5 w-24 bg-linear-to-r from-blue-600 to-rose-500 rounded-full"></div>
       </div>
 
-      <p className="text-lg text-slate-600 dark:text-slate-500 font-medium mb-8">
+      <p className="text-lg text-slate-600 dark:text-slate-400 font-medium mb-8">
         N'hésite pas à me contacter !
       </p>
 

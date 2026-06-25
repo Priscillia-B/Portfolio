@@ -1,2 +1,12 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  /* Correspond au bg-slate-50 de ton application en mode clair */
+  background-color: #f8fafc; 
+}
+
+html.dark {
+  /* Correspond au bg-slate-950 de ton application en mode sombre */
+  background-color: #020617; 
+}
